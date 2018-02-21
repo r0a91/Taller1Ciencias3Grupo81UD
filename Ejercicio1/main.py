@@ -12,6 +12,7 @@ def main():
     pacientes.encolar(paciente.Paciente("Mauricio", "Odontologia"))
     pacientes.encolar(paciente.Paciente("Yulean", "Cardiologia"))
     pacientes.encolar(paciente.Paciente("Orlando", "Medicina General"))
+    pacientes.encolar(paciente.Paciente("Gerardo", "Medicina General"))
     
     #Inicia el proceso de atencion a esa lista de clientes
     myIps=ips.Ips(pacientes)
